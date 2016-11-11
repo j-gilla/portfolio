@@ -1,0 +1,15 @@
+body {background: black;}
+
+$white: #ffffff;
+$offwhite: #9C9C9C;
+
+
+.grad {
+  padding: 1%;
+  background-color: $white;
+  background:   -webkit-webkit-grad:(linear, left top, left button, from($white, to($offwhite));
+  background: -moz-webkit-grad:   ($white,$offwhite);
+  background: -ms-webkit-grad:   ($white,$offwhite);
+  background: -o-webkit-grad:   ($white,$offwhite);
+  background: webkit-grad:   ($white,$offwhite);
+}
